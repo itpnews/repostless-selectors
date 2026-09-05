@@ -1,0 +1,55 @@
+{
+  "version": "2026.09.05",
+  "selectors": {
+    "profileLink": ["[data-e2e=\"nav-profile\"]"],
+    "repostTab": [
+      "[data-e2e=\"repost-tab\"]",
+      "[role=\"tab\"][class*=\"PRepost\"]",
+      "[class*=\"PRepost\"]",
+      "[data-e2e=\"profile-repost-tab\"]",
+      "[data-e2e=\"reposts-tab\"]",
+      "[role=\"tab\"][data-e2e*=\"repost\" i]",
+      "a[href*=\"repost\"]",
+      "button[data-testid=\"repost-tab\"]"
+    ],
+    "videoContainers": [
+      "[data-e2e=\"user-repost-item\"]",
+      "[class*=\"DivItemContainerV2\"]",
+      "[data-e2e=\"user-post-item\"]",
+      "[class*=\"DivPlayerContainer\"]"
+    ],
+    "repostButton": [
+      "[data-e2e=\"video-share-repost\"]",
+      "a[aria-label=\"Repost\"]",
+      "button[aria-label*=\"repost\" i]"
+    ],
+    "playerClose": [
+      "[data-e2e=\"browse-close\"]",
+      "button[aria-label*=\"close\" i]",
+      "[class*=\"close\" i]"
+    ],
+    "author": [
+      "[data-e2e=\"video-author-uniqueid\"]",
+      "[data-e2e=\"browse-username\"]",
+      ".author-uniqueid"
+    ],
+    "title": [
+      "[data-e2e=\"video-desc\"]",
+      "[data-e2e=\"browse-video-desc\"]",
+      ".video-meta-title"
+    ],
+    "thumbnail": ["img[alt]", "img[class*=\"cover\" i]", "img"],
+    "likeCount": [
+      "[data-e2e=\"video-views\"]",
+      "[data-e2e=\"like-count\"]",
+      "strong[data-e2e=\"like-count\"]"
+    ],
+    "publishDate": ["[data-e2e=\"video-create-time\"]", "span[class*=\"date\" i]"],
+    "videoLink": ["a[href*=\"/video/\"], a[href*=\"/photo/\"]"],
+    "captcha": [
+      "iframe[src*=\"captcha\" i]",
+      "div[id*=\"captcha\" i]",
+      "div[class*=\"verify\" i]"
+    ]
+  }
+}
