@@ -1,7 +1,12 @@
 {
-  "version": "2026.09.05",
+  "version": "2026.09.12",
   "selectors": {
     "profileLink": ["[data-e2e=\"nav-profile\"]"],
+    "avatar": [
+      "[data-e2e=\"nav-profile\"] img",
+      "[data-e2e=\"nav-profile\"] [class*=\"avatar\" i] img",
+      "[data-e2e=\"nav-profile\"] span[class*=\"avatar\" i] img"
+    ],
     "repostTab": [
       "[data-e2e=\"repost-tab\"]",
       "[role=\"tab\"][class*=\"PRepost\"]",
