@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.12",
+  "version": "2026.10.02",
   "selectors": {
     "profileLink": ["[data-e2e=\"nav-profile\"]"],
     "avatar": [
@@ -18,10 +18,7 @@
       "button[data-testid=\"repost-tab\"]"
     ],
     "videoContainers": [
-      "[data-e2e=\"user-repost-item\"]",
-      "[class*=\"DivItemContainerV2\"]",
-      "[data-e2e=\"user-post-item\"]",
-      "[class*=\"DivPlayerContainer\"]"
+      "[data-e2e=\"user-repost-item\"]"
     ],
     "repostButton": [
       "[data-e2e=\"video-share-repost\"]",
