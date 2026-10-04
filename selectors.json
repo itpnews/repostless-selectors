@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.02",
+  "version": "2026.10.04",
   "selectors": {
     "profileLink": ["[data-e2e=\"nav-profile\"]"],
     "avatar": [
@@ -14,7 +14,6 @@
       "[data-e2e=\"profile-repost-tab\"]",
       "[data-e2e=\"reposts-tab\"]",
       "[role=\"tab\"][data-e2e*=\"repost\" i]",
-      "a[href*=\"repost\"]",
       "button[data-testid=\"repost-tab\"]"
     ],
     "videoContainers": [
